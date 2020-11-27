@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top|left"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Math Puzzle"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="171dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnNina"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                app:srcCompat="@drawable/nina" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorTarjetas"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp"
+                    android:text="Sofía Torres Hernández"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorTarjetas"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnBook"
+                    android:layout_width="52dp"
+                    android:layout_height="73dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/cardview_shadow_end_color"
+                    app:srcCompat="@drawable/libro" />
+
+                <TextView
+                    android:id="@+id/tvLevel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Level"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="Learn"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="174dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            app:cardBackgroundColor="@color/colorRana"
+            app:cardCornerRadius="10dp">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="139dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                app:srcCompat="@drawable/ranas" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="284dp"
+                android:layout_height="80dp"
+                android:layout_gravity="right"
+                app:srcCompat="@drawable/hojas" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="117dp"
+                android:layout_height="66dp"
+                app:srcCompat="@drawable/hojas" />
+
+            <Button
+                android:id="@+id/btnAprender"
+                android:layout_width="139dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_margin="20dp"
+                android:background="@drawable/miboton"
+                android:backgroundTint="@android:color/background_light"
+                android:text="Start"
+                android:textColor="@color/colorRana"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="338dp"
+                android:layout_height="57dp"
+                android:layout_gravity="bottom"
+                app:srcCompat="@drawable/hoja" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="230dp"
+                android:layout_height="41dp"
+                android:layout_margin="5dp"
+                android:fontFamily="sans-serif"
+                android:text="Learn the multiplication tables."
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@android:color/background_light"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="Practice"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="353dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            app:cardBackgroundColor="@color/colorLila"
+            app:cardCornerRadius="10dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="108dp"
+                android:layout_height="53dp"
+                app:srcCompat="@drawable/hojas" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="240dp"
+                android:layout_height="147dp"
+                android:layout_gravity="bottom|right"
+                app:srcCompat="@drawable/jirafa" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="wrap_content"
+                android:layout_height="47dp"
+                android:layout_gravity="right"
+                app:srcCompat="@drawable/hojas" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="231dp"
+                android:layout_height="55dp"
+                android:layout_gravity="bottom"
+                app:srcCompat="@drawable/hoja" />
+
+            <Button
+                android:id="@+id/btnPracticar"
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_margin="20dp"
+                android:background="@drawable/miboton"
+                android:text="Start"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorRana"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="224dp"
+                android:layout_height="41dp"
+                android:layout_margin="5dp"
+                android:fontFamily="sans-serif"
+                android:text="Practice the multiplication tables."
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@android:color/background_light"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
